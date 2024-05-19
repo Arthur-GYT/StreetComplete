@@ -173,6 +173,7 @@ import de.westnordost.streetcomplete.quests.traffic_signals_button.AddTrafficSig
 import de.westnordost.streetcomplete.quests.traffic_signals_sound.AddTrafficSignalsSound
 import de.westnordost.streetcomplete.quests.traffic_signals_vibrate.AddTrafficSignalsVibration
 import de.westnordost.streetcomplete.quests.way_lit.AddWayLit
+import de.westnordost.streetcomplete.quests.website_menu.AddWebsiteMenuLinkLocation
 import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelchairAccessBusiness
 import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelchairAccessOutside
 import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelchairAccessPublicTransport
@@ -391,6 +392,8 @@ fun questTypeRegistry(
     167 to AddParcelLockerBrand(),
     168 to AddParcelLockerPickup(),
     169 to AddParcelLockerMailIn(),
+
+    170 to AddWebsiteMenuLinkLocation(),
 
     // address: usually only visible when just in front + sometimes requires to take "other answer"
     75 to AddHousenumber(),
